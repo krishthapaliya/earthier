@@ -10,7 +10,7 @@ const Home5 = () => {
             <h1 className="text-2xl font-semibold py-1">
               Rabbit Meat and the recipe for
               <br />
-              organic rabbit khutti{" "}
+              organic rabbit khutti
             </h1>
             <p>
               Amazing experience at this computer retail store! The staff
