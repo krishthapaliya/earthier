@@ -19,7 +19,7 @@ const Home2 = () => {
           Tour the app!
         </button>
       </div>
-      <div className="bg-green-50 w-[560px] h-auto px-32 pt-8 gap-24 rounded-3xl">
+      <div className="bg-green-300 w-[560px] h-auto px-32 pt-8 gap-24 rounded-3xl">
         <img src={image} alt="image1 " className=" w-full h-full" />
       </div>
     </div>

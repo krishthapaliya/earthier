@@ -19,7 +19,7 @@ const Home5 = () => {
             </p>
           </div>
           <div className="flex gap-32">
-            <button className="bg-green-100 rounded-md ">Recipes</button>
+            <button className="bg-green-200 rounded-md pl-2 pr-2 ">Recipes</button>
             <p className="text-gray-300">
               <pre>Nov 9,2020 4 min read</pre>
             </p>
@@ -35,7 +35,7 @@ const Home5 = () => {
           </p>
 
           <div className="flex gap-32">
-            <button className="bg-green-100 rounded-md p-1">Recipes</button>
+            <button className="bg-green-200 rounded-md p-1">Recipes</button>
             <p className="text-gray-300">
               <pre>Nov 9,2020 4 min read</pre>
             </p>
@@ -49,7 +49,7 @@ const Home5 = () => {
           </p>
 
           <div className="flex gap-32">
-            <button className="bg-green-100 rounded-md p-1">Recipes</button>
+            <button className="bg-green-200 rounded-md p-1">Recipes</button>
             <p className="text-gray-300 ">
               <pre>Nov 9,2020 4 min read</pre>
             </p>
@@ -62,8 +62,8 @@ const Home5 = () => {
             organic rabbit khutti
           </p>
 
-          <div className="flex justify-between  px-10">
-            <button className="bg-green-100 rounded-md p-1">Recipes</button>
+          <div className="flex   p-1 gap-32">
+            <button className="bg-green-200 rounded-md p-1 ">Recipes</button>
             <p className="text-gray-300">
               <pre>Nov 9,2020 4 min read</pre>
             </p>

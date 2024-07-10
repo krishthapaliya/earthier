@@ -9,6 +9,7 @@ import Home5 from "./components/Home5";
 import Home6 from "./components/Home6";
 import FAQSection from "./components/Faq";
 import Footer from "./components/Footer";
+import Home7 from "./components/Home7";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Home4/>
       <Home5/>
       <Home6/>
+      <Home7/>
       <FAQSection/>
       <Footer/>
     </div>
