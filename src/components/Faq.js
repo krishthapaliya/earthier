@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { ChevronUp } from "../assets/icons/cheveronUp";
+import { ChevronDown } from "../assets/icons/cheveronDown";
 
 const FAQSection = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -41,8 +43,8 @@ const FAQSection = () => {
               onClick={() => setActiveIndex(index)}
             >
               <h3 className="text-lg font-semibold">{faq.question}</h3>
-              <span className="text-xl">
-                {activeIndex === index ? "▴" : "▾"}
+              <span className={`text-xl `}>
+                {activeIndex === index ? <ChevronUp /> : <ChevronDown />}
               </span>
             </div>
             {activeIndex === index && <p className="mt-2">{faq.answer}</p>}
