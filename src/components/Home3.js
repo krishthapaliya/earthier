@@ -2,8 +2,8 @@ import React from "react";
 import image from "../assets/images/phone2.png";
 const Home3 = () => {
   return (
-    <div className="flex justify-between  gap-10  px-[130px] py-16 ">
-      <div className="bg-green-300 w-[560px] h-auto px-32 pt-8 gap-24 rounded-3xl">
+    <div className="flex flex-col xl:flex  xl:flex-row items-center xl:justify-between  gap-10  xl:px-[130px] sm:px-14 px-3 pb-10 ">
+      <div className="bg-green-300 xl:w-[560px] xl:h-[500px] sm:w-[500px] w-[300px] h-[350px] xl:px-32 sm:px-16 px-8 pt-8 gap-24 rounded-3xl">
         <img src={image} alt="image1 " className=" w-full h-full" />
       </div>
       <div className="items-center py-[130px] ">

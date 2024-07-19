@@ -3,10 +3,10 @@ import logo from "../assets/images/earthier1.png";
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between items-center bg-white px-4 py-9  md:px-16 md:py-9">
+    <nav className="flex justify-between items-center bg-white px-4 py-9  ">
       <div>
         <a href="#earthier">
-          <img src={logo} alt="Logo" className="w-47 md:w-47" />
+          <img src={logo} alt="Logo" className="w-47 " />
         </a>
       </div>
       <div className="hidden md:flex items-center gap-8">
@@ -33,7 +33,7 @@ const Navbar = () => {
           </button>
         </div>
       </div>
-      <div className="md:hidden">
+      <div className="lg:hidden">
         <button className="text-gray-800 focus:outline-none">
           <svg
             className="w-6 h-6"
